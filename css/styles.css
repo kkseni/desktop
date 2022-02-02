@@ -195,8 +195,8 @@ body {
 
 .slogan-button {
   text-align: center;
-  padding: 200px 0;
-  background: linear-gradient(to right, var (--background), var(--background)),
+  padding: 200px;
+  background: linear-gradient(to right, var(--background), var(--background)),
     url('/images/header.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -594,6 +594,14 @@ body {
   text-decoration: none;
   display: block;
 }
+.works-works:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.works-works:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .visually-hidden {
   color: rgba(0, 0, 0, 0);
@@ -667,7 +675,7 @@ body {
   margin-top: 30px;
   margin-left: 30px;
 }
-.works:focus {
+/*.works:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
@@ -680,7 +688,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
+}*/
 
 .container-text {
   padding-top: 20px;
