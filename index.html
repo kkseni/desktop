@@ -47,7 +47,19 @@
      
         <section class="slogan-button">
             <h1 class="slogan"> эффективные решения для вашего бизнеса</h1>
-            <button class="button" type="button">Заказать услугу</button>
+            <button class="button" data-modal-open type="button">Заказать услугу</button>
+            <div class="backdrop is-hidden"data-modal>
+            <div class="modal">
+                <button class="close" data-modal-close type="button">
+                 <svg class="close-icon">
+                     <use href="./images/new.svg#icon-close">
+
+                     </use>
+
+                 </svg> 
+                </button>
+            </div>    
+            </div>
     </section>
         <section class="section-peculiarities">
             <div class="container">
@@ -104,17 +116,22 @@
                     <li class="titlle-img-item">
                         <div class="image">
                             <img src="./images/photo.jpg" alt="" width="370" />
+                            <p class="label">Десктопные приложения</p>
                         </div>
                     </li>
                     <li class="titlle-img-item">
                         <div class="image">
                             <img src="./images/photot.jpg" alt="" width="370" />
+                            
+                           <p class="label">Мобильные приложения</p>
                         </div>
                     </li>
 
                     <li class="titlle-img-item">
                         <div class="image">
                             <img src="./images/photon.jpg" alt="" width="370" />
+                            
+                            <p class="label">Дизайнерские решения</p>
                         </div>
                     </li>
                 </ul>
@@ -394,7 +411,7 @@
             </ul></div>
         </div>
     </footer>
-
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
