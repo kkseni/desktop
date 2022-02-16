@@ -331,14 +331,6 @@ body {
   width: 70px;
   height: 70px;
   fill: #212121;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.svg-use:hover {
-  fill: #2196f3;
-}
-.svg-use:focus {
-  fill: #2196f3;
 }
 .titlle-desk-list-item {
   font-weight: bold;
@@ -430,6 +422,9 @@ body {
 }
 .team-list-item {
   background-color: var(--primary-white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -457,7 +452,7 @@ body {
 .team-list-item-desk-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1, 19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--team-color);
@@ -722,7 +717,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   color: var(--color-word);
-  background: var(--button-color);
+  background-color: var(--button-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -733,7 +728,9 @@ body {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-link:hover {
