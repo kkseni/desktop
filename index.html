@@ -48,7 +48,7 @@
         <section class="slogan-button">
             <h1 class="slogan"> эффективные решения для вашего бизнеса</h1>
             <button class="button" data-modal-open type="button">Заказать услугу</button>
-            <div class="backdrop is-hidden"data-modal>
+            <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button class="close" data-modal-close type="button">
                  <svg class="close-icon">
@@ -64,7 +64,7 @@
                         <ul class="ul-form">
                             <li class="li-form">
                             <label for="name" class="label-form">Имя</label>  
-               <span class="span-form">  <input type="text" name="name" id="name"class="input-form"/>
+               <span class="span-form">  <input type="text" name="name" id="name" class="input-form"/>
                 <svg class="form-icon name">
                     <use href="./images/symbol.svg#icon-name">
                 
@@ -72,8 +72,9 @@
                  </svg></span>
                             </li>
                 <li class="li-form">
-                    <label for="tell"class="label-form">Телефон</label>
-                    <span class="span-form"> <input type="tell" name="tell" id="tell"class="input-form"/>
+                    <label for="tel" class="label-form">Телефон</label>
+                    <span class="span-form"> 
+                        <input type="tel" name="tel" id="tel" class="input-form"/>
                 <svg class="form-icon tell">
                     <use href="./images/symbol.svg#icon-tell">
                 
@@ -81,8 +82,8 @@
                 </svg></span>
                 </li>
                 <li class="li-form">
-                    <label for="mail"class="label-form">Почта</label>
-                    <span class="span-form"> <input type="email" name="mail" id="mail"class="input-form"/>
+                    <label for="mail" class="label-form">Почта</label>
+                    <span class="span-form"> <input type="email" name="mail" id="mail" class="input-form"/>
                 <svg class="form-icon mail">
                     <use href="./images/symbol.svg#icon-mail">
                 
@@ -90,21 +91,21 @@
                 </svg></span>
                 </li>
                 <li class="li-form">
-                    <label for="name"class="label-form">Комментарий</label>
+                    <label for="name" class="label-form">Комментарий</label>
                     
-                <textarea name="feedback" rows="5" placeholder="Введите текст"class="input-form-text"></textarea>
-                </label>
+                <textarea name="feedback" rows="5" placeholder="Введите текст" class="input-form-text"></textarea>
+            
                 
                 </li>
-                
+                <li class="li-form">
                     <label class="checkbox-label">
-                    <input class="checkbox" type="checkbox" name="topic" value="Соглашаюсь с рассылкой и принимаю Условия договора" ></input> 
+                    <input class="checkbox" type="checkbox" name="topic" value="Соглашаюсь с рассылкой и принимаю Условия договора" >/> 
                     <span class="icon-okay">
                     
                     </span>Соглашаюсь с рассылкой и принимаю <a class="doc" href="#">Условия договора</a></label>
-                     
-               
-                <button type="submit" class="button-form">Отправить</button>
+                     <button type="submit" class="button-form">Отправить</button>
+               </li>
+                
                 </ul>
                 </div>
                 </form>
@@ -192,168 +193,171 @@
         <section class="section-team">
             <div class="container">
 
-                <h2 class="team">Наша команда</h2>
-
-                <ul class="team-list">
-                    <li class="team-list-item">
-
-                        <div class="card-thumb">
-                            <img src="./images/photoon.jpg" alt="" width="270" />
-                        </div>
-                        <div class="card-content">
-                            <h3 class="team-list-item-desk">Игорь Демьяненко</h3>
-                            <p class="team-list-item-desk-text">Product Designer</p>
+            <h2 class="team">Наша команда</h2>
+            
+            <ul class="team-list">
+                <li class="team-list-item">
+            
+                    <div class="card-thumb">
+                        <img src="./images/photoon.jpg" alt="" width="270" />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="team-list-item-desk">Игорь Демьяненко</h3>
+                        <p class="team-list-item-desk-text">Product Designer</p>
                         <ul class="team-ul">
-                                    <li class="link-for"><a class="link-team" href="#">
-                                <svg class="team-svg">
-                                    <use href="./images/icon.svg#icon-instagram-1">
-
-                                    </use>
-                                </svg>
-                            </a></li>
                             <li class="link-for"><a class="link-team" href="#">
-                                <svg class="team-svg">
-                                    <use href="./images/icon.svg#icon-twitter-1">
-                            
-                                    </use>
-                                </svg>
-                            </a></li>
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-instagram-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
                             <li class="link-for"><a class="link-team" href="#">
-                                <svg class="team-svg">
-                                    <use href="./images/icon.svg#icon-facebook-1">
-                            
-                                    </use>
-                                </svg>
-                            </a></li>
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-twitter-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
                             <li class="link-for"><a class="link-team" href="#">
-                                <svg class="team-svg">
-                                    <use href="./images/icon.svg#icon-linkedin-1">
-                            
-                                    </use>
-                                </svg>
-                            </a></li>
-                            </ul>
-                            </div>
-
-                    <li class="team-list-item">
-
-                        <div class="card-thumb">
-                            <img src="./images/phototw.jpg" alt="" width="270" />
-                        </div>
-                        <div class="card-content">
-                            <h3 class="team-list-item-desk">Ольга Репина</h3>
-                            <p class="team-list-item-desk-text">Frontend Developer</p>
-                       <ul class="team-ul">
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-instagram-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-twitter-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-facebook-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-linkedin-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                            </ul> 
-                        </div>
-                            
-
-                    </li>
-                    <li class="team-list-item">
-                        <div class="card-thumb">
-                            <img src="./images/phototn.jpg" alt="" width="270" />
-                        </div>
-                        <div class="card-content">
-                            <h3 class="team-list-item-desk">Николай Тарасов</h3>
-                            <p class="team-list-item-desk-text">Marketing</p>
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-facebook-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-linkedin-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+            
+                <li class="team-list-item">
+            
+                    <div class="card-thumb">
+                        <img src="./images/phototw.jpg" alt="" width="270" />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="team-list-item-desk">Ольга Репина</h3>
+                        <p class="team-list-item-desk-text">Frontend Developer</p>
                         <ul class="team-ul">
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-instagram-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-twitter-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-facebook-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-linkedin-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                            </ul></div>
-
-                    </li>
-                    <li class="team-list-item">
-                        <div class="card-thumb">
-                            <img src="./images/photofo.jpg" alt="" width="270" />
-                        </div>
-                        <div class="card-content">
-                            <h3 class="team-list-item-desk">Михаил Ермаков</h3>
-                            <p class="team-list-item-desk-text">UI Designer</p>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-instagram-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-twitter-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-facebook-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-linkedin-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+            
+            
+                </li>
+                <li class="team-list-item">
+                    <div class="card-thumb">
+                        <img src="./images/phototn.jpg" alt="" width="270" />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="team-list-item-desk">Николай Тарасов</h3>
+                        <p class="team-list-item-desk-text">Marketing</p>
                         <ul class="team-ul">
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-instagram-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-twitter-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-facebook-1">
-                        
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                                <li class="link-for"><a class="link-team" href="#">
-                                        <svg class="team-svg">
-                                            <use href="./images/icon.svg#icon-linkedin-1">
-                                            </use>
-                                        </svg>
-                                    </a></li>
-                            </ul></div>
-                    </li>
-                </ul>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-instagram-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-twitter-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-facebook-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-linkedin-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+            
+                </li>
+                <li class="team-list-item">
+                    <div class="card-thumb">
+                        <img src="./images/photofo.jpg" alt="" width="270" />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="team-list-item-desk">Михаил Ермаков</h3>
+                        <p class="team-list-item-desk-text">UI Designer</p>
+                        <ul class="team-ul">
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-instagram-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-twitter-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-facebook-1">
+            
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="link-for"><a class="link-team" href="#">
+                                    <svg class="team-svg">
+                                        <use href="./images/icon.svg#icon-linkedin-1">
+                                        </use>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            </div>
             </section>
           
                 <section class="section-clients">
@@ -465,15 +469,16 @@
                     <h3 class="links-name">Подпишитесь на рассылку </h3>
                     <ul class="ul-form-footer">
                         <li class="li-form-footer">
-                            <label for="mail"class="label-footer" ></label>
-                            <input name="email"placeholder="E-mail" class="input-footer"></input> 
-                        </li>
-                    <button type="submit" class="button-form-footer">Подписаться
+                            <label for="mail" class="label-footer" ></label>
+                            <input name="email" placeholder="E-mail" class="input-footer">/> 
+                        <button type="submit" class="button-form-footer">Подписаться
                         <svg class="icon-fly">
                             <use href="./images/symbol.svg#icon-fly">
                             </use>
                         </svg>
                     </button>
+                </li>
+                    
                     </ul>
                 </div>
             </form>
