@@ -314,6 +314,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
+  margin-bottom: 4px;
 }
 .form-icon {
   position: absolute;
@@ -322,6 +323,7 @@ body {
   left: 15px;
   fill: #212121;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .name {
@@ -355,7 +357,9 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   padding-left: 42px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .input-form:hover ~ .form-icon {
   fill: #18a0fb;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -363,10 +367,12 @@ body {
 .input-form:hover {
   border: 1px solid #18a0fb;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .input-form:focus {
   border: 1px solid #18a0fb;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .input-form:focus ~ .form-icon {
   fill: #18a0fb;
@@ -387,14 +393,17 @@ body {
   padding-bottom: 12px;
   padding-left: 16px;
   padding-right: 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-form-text:hover {
   border: 1px solid #18a0fb;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .input-form-text:focus {
   border: 1px solid #18a0fb;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .checkbox {
   position: absolute;
@@ -414,6 +423,8 @@ body {
   border: 2px solid #212121;
   border-radius: 4px;
   margin-right: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .checkbox:checked + .icon-okay {
   border-color: #18a0fb;
@@ -823,15 +834,12 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-footer {
-  margin-left: 93px;
-}
-.ul-form-footer {
   list-style: none;
   display: flex;
 }
-.li-form-footer {
-}
-.label-footer {
+
+.div-form-footer {
+  margin-left: 93px;
 }
 .input-footer {
   width: 358px;
@@ -853,7 +861,7 @@ body {
   background-color: #2196f3;
   color: var(--primary-white-color);
   padding-left: 29px;
-  padding-right: 62px;
+  padding-right: 13px;
   padding-top: 10px;
   padding-bottom: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
