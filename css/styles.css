@@ -196,6 +196,7 @@ body {
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
+  border: none;
 }
 .backdrop {
   position: fixed;
@@ -455,6 +456,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  border: none;
 }
 .doc {
   color: #18a0fb;
