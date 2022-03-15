@@ -468,6 +468,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+/*---*/
 .peculiarities {
   padding-top: 94px;
 }
@@ -485,7 +486,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*div-section*/
+
 .card-text {
   width: 270px;
   margin-left: 30px;
