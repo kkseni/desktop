@@ -22,7 +22,7 @@
   margin-bottom: 20px;
   display: block;
 }
-.footer__deck {
+.footer__desk {
   list-style: none;
 }
 .footer__name {
@@ -48,7 +48,7 @@
   letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
-.footer__link:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer__catalog {
@@ -142,7 +142,7 @@
   border: none;
   font-weight: bold;
 }
-.icon-fly {
+.icon__fly {
   width: 24px;
   height: 24px;
   margin-left: 10px;

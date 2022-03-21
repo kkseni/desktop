@@ -1,3 +1,6 @@
+body {
+  font-family: var(--text-leng);
+}
 .header {
   display: flex;
 }
@@ -37,7 +40,7 @@
   display: inline-flex;
   justify-content: space-around;
 }
-.site-nav__ul {
+.site-nav__list {
   list-style: none;
   text-decoration: none;
   font-weight: 500;
@@ -47,7 +50,7 @@
   display: flex;
   align-items: center;
 }
-.site-nav__items:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
   margin-left: auto;
 }
@@ -91,7 +94,7 @@
   margin-left: auto;
 }
 
-.contacts__items:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
   margin-left: auto;
 }
