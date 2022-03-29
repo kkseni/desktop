@@ -21,8 +21,16 @@
   margin-left: 30px;
 }
 .peculiarities__list {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
 }
+
 .peculiarities__item {
   list-style: none;
   line-height: 1.14;
@@ -39,9 +47,13 @@
   border-radius: 4px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .peculiarities__icon {

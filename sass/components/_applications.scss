@@ -20,9 +20,15 @@
   position: relative;
 }
 .applications__label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @media screen and (min-width: 480px) {
+    width: 370px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   width: 370px;
   height: 70px;
   position: absolute;
@@ -41,9 +47,13 @@
   color: var(--primary-white-color);
 }
 .applications__list {
-  list-style: none;
-  display: flex;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    list-style: none;
+    display: flex;
+  }
 }
+
 .applications__item {
   &:not(:last-child) {
     margin-right: 30px;
