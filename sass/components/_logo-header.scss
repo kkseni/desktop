@@ -52,24 +52,6 @@ body {
     margin-right: 93px;
   }
 }
-.header__menu {
-  display: inline-flex;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
-.header__menu .header__icon {
-  display: none;
-}
-.header__menu.is-open .header__icon {
-  display: block;
-}
-.header__menu.is-open .header__symbol {
-  display: none;
-}
 .site-nav__name {
   color: var(--titlle-text-color);
   display: inline-flex;
