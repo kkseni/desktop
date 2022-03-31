@@ -32,23 +32,45 @@
 }
 .slogan {
   text-align: center;
-  padding: 200px;
   background: linear-gradient(to right, var(--background), var(--background)),
     url('../images/header.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 118px;
+  padding-bottom: 198px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-top: 118px;
+    padding-bottom: 198px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 .slogan__name {
   text-transform: uppercase;
   font-family: var(--text-leng);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
+  font-size: 26px;
+  line-height: 1.61;
   text-align: center;
   color: var(--primary-white-color);
   margin: 0 auto;
-  width: 696px;
+  // width: 696px;
   margin-bottom: 30px;
   letter-spacing: 0.06em;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.4;
+  }
 }
