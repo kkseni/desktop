@@ -31,6 +31,8 @@
     flex-wrap: wrap;
   }
   @media screen and (min-width: 1200px) {
+      display: flex;
+      
   }
 }
 
@@ -38,14 +40,18 @@
   list-style: none;
   line-height: 1.14;
   color: var(--titlle-text-color);
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 3*10px)/2);
+    margin-right: 10px;
+  }
+   @media screen and (min-width: 1200px) {
     width: 270px;
   }
 }
 .peculiarities__item {
   @media screen and (min-width: 1200px) {
     &:not(:last-child) {
-      margin-right: 30px;
+      margin-right: 20px;
     }
   }
 }
@@ -70,8 +76,11 @@
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--color-word);
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
   text-align: center;
+    @media screen and (min-width: 768px){
+      text-align:start;
+    }
 }
 .peculiarities__text {
   font-size: 14px;
