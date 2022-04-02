@@ -104,6 +104,15 @@ body {
   }
 }
 
+.mobile__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .site-nav {
   display: none;
 }
@@ -122,7 +131,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-right: 70px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1109,8 +1117,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .team__item {
-    width: calc((100% - 2*15px)/2);
-    margin-right: 15px;
+    width: 50%;
   }
 }
 

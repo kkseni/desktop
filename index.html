@@ -22,11 +22,13 @@
     <!--Шапка сайта-->
     <header class="header">
         <div class="container header__container">
+            <div class="mobile__logo">
              <a class="site-nav__logo" href="">Web<span class="site-nav__name">Studio</span></a>
              <button type="button" class="header__menu is__open"
              aria-expanded="false" 
              aria-controls="menu"
-             data-menu-button >
+             data-menu-button 
+             data-menu-open>
                  <svg width="40" height="40" aria-label="мобильное меню"> 
                      <use class="header__icon" href="./images/symboleight.svg#icon-close_40px">
 
@@ -37,7 +39,8 @@
                  </svg>
 
              </button>
-        <button type="button"class="menu__button" data-menu-open ></button>
+            </div>
+        <!-- <button type="button"class="menu__button" data-menu-open ></button> -->
         <div class="backdrop__menu is-hidden" data-menu>
             <div class="modal__menu">
                

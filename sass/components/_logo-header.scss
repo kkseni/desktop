@@ -14,6 +14,7 @@ body {
   }
 }
 .header .header__container {
+
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -34,7 +35,10 @@ body {
     width: 1200px;
   }
 }
-
+.mobile__logo{
+  display: flex;
+  justify-content: space-between;
+}
 .site-nav {
   display: none;
   @media screen and (min-width: 768px) {
@@ -49,7 +53,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-right: 70px;
+  
   @media screen and (min-width: 768px) {
     margin-right: 93px;
   }
