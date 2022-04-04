@@ -138,14 +138,12 @@
   border-radius: 4px;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
-  @media screen and (min-width: 1200px) {
-    width: 358px;
-  }
+  display: flex;
+  align-items: center;
+
 }
 .footer__button {
   background-color: #2196f3;
@@ -166,9 +164,11 @@
   border: none;
   font-weight: bold;
   margin-top: 20px;
-  // display: flex;
-  // align-items: center;
-  // text-align: center;
+  @media screen and (min-width: 1200px) {
+
+  display: flex;
+  align-items: center;
+  text-align: center;}
 }
 .icon__fly {
   width: 24px;

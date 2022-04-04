@@ -35,7 +35,8 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
     margin-top: 30px;
     @media screen and (min-width: 768px){
-   width: 50%;
+  width: calc((100% - 4*15px)/2);
+   margin-right: 15px;
     
     }
     // @media screen and (min-width: 1200px) {
@@ -51,10 +52,12 @@
   background-color: var(--primary-white-color);
   display: flex;
   align-items: center;
+
 }
 .team__card {
   padding-top: 30px;
   padding-bottom: 30px;
+ 
 }
 
 .team__desk {

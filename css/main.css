@@ -1117,7 +1117,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .team__item {
-    width: 50%;
+    width: calc((100% - 4*15px)/2);
+    margin-right: 15px;
   }
 }
 
@@ -1469,21 +1470,15 @@ body {
   border-radius: 4px;
   font-size: 16px;
   line-height: 20px;
+  letter-spacing: 0.03em;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 0.03em;
-  padding-left: 16px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-@media screen and (min-width: 1200px) {
-  .footer__input {
-    width: 358px;
-  }
 }
 
 .footer__button {
@@ -1506,6 +1501,18 @@ body {
   border: none;
   font-weight: bold;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 }
 
 .icon__fly {
