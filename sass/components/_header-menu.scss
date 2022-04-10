@@ -7,15 +7,7 @@
     display: none;
   }
 }
-.header__menu .header__icon {
-  display: none;
-}
-.header__menu.is__open .header__icon {
-  display: block;
-}
-.header__menu.is__open .header__symbol {
-  display: none;
-}
+
 .menu {
 
   &.is__open {
@@ -30,7 +22,8 @@
     0px 1px 3px rgba(0, 0, 0, 0.16);
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 .menu__list {
  margin-top: 28px;
