@@ -237,7 +237,7 @@ body {
 @media screen and (min-width: 1200px) {
   .contacts__item:not(:last-child) {
     margin-right: 50px;
-    margin-bottom: 0;
+    margin-left: auto;
   }
 }
 
@@ -302,12 +302,6 @@ body {
   font-size: 20px;
   height: 796px;
   background: #ffffff;
-  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-  top: 100%;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
 .menu.is__open {
@@ -338,6 +332,7 @@ body {
 
 .menu__link {
   font-size: 40px;
+  font-weight: 500;
   line-height: 47px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -400,7 +395,9 @@ body {
 .backdrop__menu {
   position: fixed;
   top: 0;
-  left: 20%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: #FFFFFF;
   opacity: 1;
   visibility: visible;
@@ -411,17 +408,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .backdrop__menu {
-    display: none;
-  }
-}
-
-.modal__menu {
-  width: 450px;
-  height: 780px;
-}
-
-@media screen and (min-width: 768px) {
-  .modal__menu {
     display: none;
   }
 }
@@ -535,8 +521,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .slogan {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px;
   }
 }
 
@@ -558,6 +543,7 @@ body {
   .slogan__name {
     font-size: 26px;
     line-height: 42px;
+    width: 696px;
   }
 }
 
