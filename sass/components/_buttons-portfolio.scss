@@ -7,6 +7,7 @@
 
 .div-button {
   margin-right: 5px;
+  
 }
 .works__link {
   text-decoration: none;
@@ -42,19 +43,31 @@
 .works__button {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
-  justify-content: center;
+  justify-content: start;
+  @media screen and (min-width: 768px){
+    justify-content: center;
+  }
 }
-.button__portfolio {
+.button__porfolio{
   text-decoration: none;
   cursor: pointer;
   font-weight: normal;
-}
-.button__porfolio {
-  &:not(:last-child) {
-    margin-right: 8px;
+  width: calc(100% / 3 - 40px);
+  margin-right: 8px;
+  @media screen and (min-width: 768px){
+    width: calc(100% /5 - 32px);
+  }
+  @media screen and (min-width: 1200px){
+    width: calc(100% /5 - 100px);
   }
 }
+// .button__porfolio {
+//   &:not(:last-child) {
+//     margin-right: 8px;
+//   }
+// }
 .button__link {
   border: none;
   border-radius: 4px;

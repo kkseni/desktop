@@ -1,9 +1,13 @@
 .backdrop__menu {
   position: fixed ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  padding: 40px;
   background-color:#FFFFFF;
   opacity: 1;
   visibility: visible;
