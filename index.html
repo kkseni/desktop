@@ -233,14 +233,14 @@
                 <ul class="applications__list">
                     <li class="applications__item">
                         <div class="applications__image">
-                            <img src="./images/photo.jpg" alt="" width="370" />
+                            <img src="./images/photo.jpg" />
                            <div class="applications__label"> 
                                <p class="applications__text">Десктопные приложения</p></div>
                         </div>
                     </li>
                     <li class="applications__item">
                         <div class="applications__image">
-                            <img src="./images/photot.jpg" alt="" width="370" />
+                            <img src="./images/photot.jpg" />
                             
                         <div class="applications__label">
                              <p class="applications__text">Мобильные приложения</p></div>
@@ -249,7 +249,7 @@
 
                     <li class="applications__item">
                         <div class="applications__image">
-                            <img src="./images/photon.jpg" alt="" width="370" />
+                            <img src="./images/photon.jpg"  />
                             
                         <div class="applications__label">  
                              <p class="applications__text">Дизайнерские решения</p></div>
@@ -268,7 +268,21 @@
                 <li class="team__item">
             
                     <div class="team__thumb">
-                        <img src="./images/photoon.jpg" alt="" width="270" />
+                        <picture>
+                            <source 
+                            srcset="./images/images/tablet/team1.jpg" 
+                            media="(min-width: 768px)"
+                            />
+
+                            <sourse 
+                            srcset="./images/images/desktop/team1.jpg"
+                            media="(min-width: 1200px)"
+                            />
+
+                        <img src="./images/images/mobile/team1.jpg"
+                        />
+
+                    </picture>
                     </div>
                     <div class="team__card">
                         <h3 class="team__desk">Игорь Демьяненко</h3>
@@ -312,7 +326,18 @@
                 <li class="team__item">
             
                     <div class="team__thumb">
-                        <img src="./images/phototw.jpg" alt="" width="270" />
+                        <picture>
+                            <source 
+                            srcset="./images/images/tablet/team2.jpg" 
+                            media="(min-width: 768px)"/>
+
+                            <sourse 
+                            srcset="./images/images/desktop/team2.jpg" 
+                            media="(min-width: 1200px)"/>
+
+                            <img src="./images/images/mobile/team2.jpg"/>
+                        </picture>
+                
                     </div>
                     <div class="team__card">
                         <h3 class="team__desk">Ольга Репина</h3>
@@ -357,7 +382,17 @@
                 </li>
                 <li class="team__item">
                     <div class="team__thumb">
-                        <img src="./images/phototn.jpg" alt="" width="270" />
+                        <picture>
+                            <source 
+                            srcset="./images/images/tablet/team3.jpg"
+                            media="(min-width: 768px)" />
+
+                            <sourse 
+                            srcset="./images/images/desktop/team3.jpg"
+                            media="(min-width: 1200px)" />
+                            <img src="./images/images/mobile/team3.jpg" />
+                        </picture>
+
                     </div>
                     <div class="team__card">
                         <h3 class="team__desk">Николай Тарасов</h3>
@@ -401,7 +436,17 @@
                 </li>
                 <li class="team__item">
                     <div class="team__thumb">
-                        <img src="./images/photofo.jpg" alt="" width="270" />
+                        <picture>
+                            <source 
+                            srcset="./images/images/tablet/team4.jpg"
+                            media="(min-width: 768px)" />
+
+                            <sourse
+                             srcset="./images/images/desktop/team4.jpg"
+                            media="(min-width: 1200px)" />
+
+                            <img src="./images/images/mobile/team4.jpg" />
+                        </picture>
                     </div>
                     <div class="team__card">
                         <h3 class="team__desk">Михаил Ермаков</h3>
@@ -500,7 +545,6 @@
     <!---->
     <footer class="footer">
         <div class="container box">
-        <div class="footer__box">
            <div class="footer__content"> 
                <a class="footer__logo" href="">Web<span class="footer__name">Studio</span></a>
             <ul class="footer__desk">
@@ -552,11 +596,11 @@
                 
                 </li>
             </ul></div> 
-        </div>
+
             <div class="footer__form">
                  <h3 class="footer__titlle form">Подпишитесь на рассылку </h3>
                        <form class="footer__blank">
-                            <label for="mail" class="footer__label" ></label>
+        
                             <input name="email" placeholder="E-mail" class="footer__input"/>  
                              <button type="submit" class="footer__button">Подписаться
                         <svg class="icon__fly">

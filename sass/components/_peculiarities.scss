@@ -1,8 +1,10 @@
 .peculiarities {
   padding-top: 60px;
+  padding-bottom: 60px;
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
   }
+  
 }
 .peculiarities__name {
   line-height: 1.7;
@@ -46,11 +48,11 @@
     margin-top: 30px;
     margin-left: 30px;
   @media screen and (min-width: 768px) {
-    width: calc(100% /2 - 90px);
+    width: calc(100% /2 - 30px);
  
   }
    @media screen and (min-width: 1200px) {
-  width: calc(100% /4 - 50px);
+  width: calc(100% /4 - 30px);
   }
 }
 // .peculiarities__item {
