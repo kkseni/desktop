@@ -51,13 +51,10 @@
    
     list-style: none;
     display: flex;
-    margin-right: -30px;
+    margin-left: -30px;
   }
 .applications__item{
-  width: calc(100% /3 - 30px);
+  margin-left: 30px;
+  width: calc((100% - 60px) /3);
 }
-.applications__item {
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
-}
+
