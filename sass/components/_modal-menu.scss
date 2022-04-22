@@ -1,6 +1,7 @@
 .backdrop__menu {
   position: fixed ;
   display: flex;
+  z-index: 1;
   flex-direction: column;
   justify-content: space-between;
   top: 0;

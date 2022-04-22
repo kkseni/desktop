@@ -8,7 +8,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
   }
   
   @media screen and (min-width: 1200px) {
@@ -27,6 +26,7 @@
 .footer__content {
   text-align: center;
   @media screen and (min-width: 1200px){
+  text-align: start;
   margin-right: auto;
   }
 
@@ -34,10 +34,16 @@
 .footer__add {
   margin-bottom: 60px;
   margin-top: 60px;
-  text-align: center;
+   text-align: center;
+  @media screen and (min-width: 768px){
+    margin-top: 0;
+    margin-bottom: 0;
+    
+  }
   @media screen and (min-width: 1200px) {
-    margin-right: 70px;
-    margin-top: auto;
+    margin-right: 93px;
+    text-align: start;
+    
   }
 }
 
@@ -142,13 +148,13 @@
 
 .footer__form {
   text-align: center;
-  margin-bottom: 60px;
   @media screen and (min-width: 768px){
     margin-top: 60px;
   }
   @media screen and (min-width: 1200px) {
-    margin-left: auto;
-    margin-top: auto;
+    text-align: start;
+    margin-top: 0;
+  
   }
 }
 .footer__input {
