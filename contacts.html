@@ -21,10 +21,24 @@
     <!--Шапка сайта-->
     <header class="header">
         <div class="container header__container">
-            <nav class="site-nav">
+            <div class="mobile__logo">
                 <a class="site-nav__logo" href="">Web<span class="site-nav__name">Studio</span></a>
+                <button type="button" class="header__menu is__open" data-menu-open>
+                    <svg width="40" height="40">
+    
+                        <use class="header__symbol" href="./images/symboleight.svg#icon-menu_40px">
+    
+                        </use>
+                    </svg>
+    
+                </button>
+            </div>
+    
+    
+    
+            <nav class="site-nav">
                 <ul class="site-nav__list">
-                    <li class="site-nav__item"><a class="site-nav__link " href="./index.html">Студия</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="./index.html">Студия</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html">Портфолио</a></li>
                     <li class="site-nav__item"><a class="site-nav__link current" href="./contacts.html">Контакты</a></li>
                 </ul>
@@ -42,12 +56,57 @@
                         +380 961 111 111</a></li>
             </ul>
         </div>
+    
+        <div class="backdrop__menu is-hidden" data-menu>
+            <button type="button" class="menu__close" data-menu-close>
+                <svg class="menu__icon">
+                    <use href="./images/new.svg#icon-close">
+    
+                    </use>
+    
+                </svg>
+            </button>
+    
+    
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link " href="./index.html">Студия</a></li>
+                <li class="menu__item"><a class="menu__link" href="./portfolio.html">Портфолио</a></li>
+                <li class="menu__item"><a class="menu__link current" href="./contacts.html">Контакты</a></li>
+            </ul>
+            <div class="menu" id="menu" data-menu>
+                <ul class="mobile__contacts">
+    
+                    <li class="mobile__item"><a class="mobile__link" href="tel:+380961111111">
+    
+                            +380 961 111 111</a></li>
+                    <li class="mail__item"><a class="mail__link" href="mailto:">
+    
+                            info@devstudio.com</a></li>
+                </ul>
+                <ul class="network__list">
+                    <li class="network__item"><a class="network__link" href="#"> Instagram
+    
+                        </a></li>
+                    <li class="network__item"><a class="network__link" href="#"> Twitter
+    
+                        </a></li>
+                    <li class="network__item"><a class="network__link" href="#"> Facebook
+    
+                        </a></li>
+                    <li class="network__item"><a class="network__link" href="#"> LinkedIn
+    
+                        </a></li>
+                </ul>
+    
+            </div>
+    
+        </div>
     </header>
     
 
     <!--подвал-->
 <footer class="footer">
-    <div class="container footer__box">
+    <div class="container box">
         <div class="footer__content">
             <a class="footer__logo" href="">Web<span class="footer__name">Studio</span></a>
             <ul class="footer__desk">
@@ -100,10 +159,11 @@
                 </li>
             </ul>
         </div>
+
         <div class="footer__form">
-            <h3 class="footer__titlle form">Подпишитесь на рассылку </h3>
+            <h3 class="footer__titlle">Подпишитесь на рассылку </h3>
             <form class="footer__blank">
-                <label for="mail" class="footer__label"></label>
+
                 <input name="email" placeholder="E-mail" class="footer__input" />
                 <button type="submit" class="footer__button">Подписаться
                     <svg class="icon__fly">
